@@ -9,13 +9,12 @@
 
 ## 📖 About The Project
 
-I got tired of stressing over my FPL team every Friday night, relying on gut feelings and biased YouTube pundits. So, I decided to retire from manual management and let algorithms take the wheel.
+I got tired of stressing over my FPL team every Weekend, relying on gut feelings and biased YouTube pundits. So, I decided to retire from manual management and let algorithms take the wheel.
 
 **FantasyBrain** is an end-to-end Python application that automates the decision-making process. It treats FPL like a mathematical optimization problem (specifically, the **Knapsack Problem**), finding the combination of players that maximizes projected points while strictly adhering to budget and formation constraints.
 
 ## 📸 Demo
-
-*(Add a screenshot of your Streamlit app here! Name it 'demo_screenshot.png' in your repo)*
+![Demo Screenshot](demo_screenshot.png)
 ![Optimal Squad Preview](optimal_squad.png)
 
 ## 🚀 Key Features
@@ -48,7 +47,7 @@ Want to find the optimal team for yourself? Follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/FantasyBrain.git](https://github.com/YOUR_USERNAME/FantasyBrain.git)
+    git clone [https://github.com/YOUR_USERNAME/FantasyBrain.git](https://github.com/hayek-moran/FantasyBrain.git)
     cd FantasyBrain
     ```
 
@@ -88,4 +87,4 @@ Contributions are welcome! If you have ideas for better weighing algorithms or n
 * [GitHub](https://github.com/hayek-moran)
 
 ---
-*Disclaimer: I am not responsible if Pep Guardiola rotates your captain at the last minute. The AI is smart, but Pep is unpredictable.* 😂
+*Disclaimer: I am not responsible if Pep rotates your captain at the last minute. The AI is smart, but Pep is unpredictable.* 😂
