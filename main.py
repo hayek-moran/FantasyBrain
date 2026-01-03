@@ -142,7 +142,7 @@ def run_optimization(scored_players_df, budget):
         prob += pulp.lpSum(
             player_vars[i] for i in player_indices if scored_players_df.loc[i, 'position'] == pos) == count
 
-    # max 3 per team
+    # maximum 3 per team
     for team_id in scored_players_df['team'].unique():
         prob += pulp.lpSum(player_vars[i] for i in player_indices if scored_players_df.loc[i, 'team'] == team_id) <= 3
 
