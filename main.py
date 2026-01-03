@@ -114,7 +114,7 @@ def filter_and_score_players(players_df, opponents_df, current_gw):
         (merged_df['points_per_game'] > MIN_PPG)
         ].copy()
 
-    # the secret sauce algorithm
+    # algorithm
     total_score = (
             filtered_df['form'] * WEIGHTS['form'] +
             filtered_df['ep_next'] * WEIGHTS['ep_next'] +
