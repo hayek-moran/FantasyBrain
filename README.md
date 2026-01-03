@@ -83,7 +83,7 @@ Contributions are welcome! If you have ideas for better weighing algorithms or n
 ## 📬 Author
 
 **Mano Hayek**
-* [LinkedIn](https://www.linkedin.com/in/linkedin.com/in/moran-hayek)
+* [LinkedIn](https://www.linkedin.com/in/moran-hayek/)
 * [GitHub](https://github.com/hayek-moran)
 
 ---
