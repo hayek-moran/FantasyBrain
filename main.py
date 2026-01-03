@@ -216,7 +216,7 @@ if st.button("Generate Optimal Wildcard Team 🚀", type="primary"):
 
         optimal_squad = run_optimization(scored_df, budget)
 
-        # Displaying results
+        # results
         st.success(f"**Optimization Complete for Gameweek {next_gw}!**")
 
         tab1, tab2 = st.tabs(["⚽ Pitch View", "📊 Data View"])
